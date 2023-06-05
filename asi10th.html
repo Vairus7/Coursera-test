@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>form2</title>
+</head>
+
+<body>
+    <form action="asi10th.html" method="get">
+        <div>
+            <label for="">Username</label>
+            <input type="text" required placeholder="username" name="user" autofocus minlength="5" maxlength="20">
+        </div>
+        <br>
+        <div>
+            <label for="hide"></label>
+            <input type="hidden" value="b92f1fc2fce391ad7af633723afd3055" id="hide">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" required name="email" placeholder="enter a valid email" value=" o@o.com"
+                readonly>
+        </div>
+        <br>
+        <!-- check box -->
+        <div>
+            <input type="checkbox" id="pr" name="java script" autofocus checked>
+            <label for="pr">Java script</label>
+        </div>
+        <div>
+            <input type="checkbox" id="pr2" name="html" autofocus>
+            <label for="pr2">HTML</label>
+        </div>
+        <div>
+            <input type="checkbox" id="pr3" name="css" autofocus>
+            <label for="pr3">css</label>
+        </div>
+        <hr>
+        <!-- radio -->
+        <div>
+            <input type="radio" name="dov" autofocus id="fe" cheked>
+            <label for="fe">front-end</label>
+        </div>
+        <div>
+            <input type="radio" name="dov" id="be">
+            <label for="be">back-end</label>
+        </div>
+        <div>
+            <input type="radio" name="dov" id="pm">
+            <label for="pm">project manager</label>
+        </div>
+        <br>
+        <!-- select -->
+        <div>
+            <label for="sc">please select a version</label>
+            <select name="selected" id="sc">
+                <optgroup label="php">
+                    <option value="1">v3</option>
+                    <option value="2">v4</option>
+
+                </optgroup>
+                <optgroup label="python">
+                    <option value="3">v3</option>
+                    <option value="4">v4</option>
+            </select>
+            </optgroup>
+            </select>
+        </div>
+        <hr>
+        <div>
+            <label for="phone number">please enter a phone number</label>
+            <input type="tel" id="phone number" value="+20 " pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </div>
+        <br>
+        <!-- area box -->
+        <textarea name="herif" id="" cols="30" rows="10" placeholder="write what you want to learn"></textarea>
+        <!-- end -->
+        <div>
+            <button type="reset">empty</button>
+            <button type="submit">send</button>
+        </div>
+    </form>
+</body>
+
+</html>
